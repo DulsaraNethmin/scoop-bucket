@@ -1,21 +1,21 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/DulsaraNethmin/spinup/releases/download/v1.3.0/spinup_1.3.0_windows_amd64.zip",
+            "url": "https://github.com/DulsaraNethmin/spinup/releases/download/v1.4.0/spinup_1.4.0_windows_amd64.zip",
             "bin": [
-                "spin.exe",
-                "spinup.exe"
+                "spinup.exe",
+                "spin.exe"
             ],
-            "hash": "6ca74366eab51a1c7c90262bbb93b3a1c5cb8bcbfd8be2901a32b5b70885dc01"
+            "hash": "a0793e9ab37f7ecc3c005140922d75d41768a50785071e9ee32f1929bf505999"
         },
         "arm64": {
-            "url": "https://github.com/DulsaraNethmin/spinup/releases/download/v1.3.0/spinup_1.3.0_windows_arm64.zip",
+            "url": "https://github.com/DulsaraNethmin/spinup/releases/download/v1.4.0/spinup_1.4.0_windows_arm64.zip",
             "bin": [
                 "spin.exe",
                 "spinup.exe"
             ],
-            "hash": "1bc12fe92fd96e92b34d15c6df0a75f25c12f1ccdbd47c79cd9071a8151a0906"
+            "hash": "85a6c72969085e1eaf385d866f345ff9aad766751af83cf4836255543566dbb2"
         }
     },
     "homepage": "https://github.com/DulsaraNethmin/spinup",

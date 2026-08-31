@@ -1,0 +1,25 @@
+{
+    "version": "1.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/DulsaraNethmin/spinup/releases/download/v1.1.0/spinup_1.1.0_windows_amd64.zip",
+            "bin": [
+                "spinup.exe"
+            ],
+            "hash": "9a5a771145a5f2ab784faf3714b9974c7a11716bc72f2e4a7edf0b0ca3b2e2b3"
+        },
+        "arm64": {
+            "url": "https://github.com/DulsaraNethmin/spinup/releases/download/v1.1.0/spinup_1.1.0_windows_arm64.zip",
+            "bin": [
+                "spinup.exe"
+            ],
+            "hash": "c9b56b7aae149a6db14112f0098a683e9442b322274c615d155c94838b9b0f76"
+        }
+    },
+    "homepage": "https://github.com/DulsaraNethmin/spinup",
+    "license": "MIT",
+    "description": "Start local development services — databases, queues, GUIs, dev tooling — with one command",
+    "post_install": [
+        "Write-Host 'spinup needs Docker Desktop with Compose v2 running. Check it with: spinup doctor'"
+    ]
+}
